@@ -15,3 +15,5 @@ This is a collection of snippets from various projects that don't have another h
 - WordPress - `/WordPress`
 	- `Find-Replace-WordPress-Snippet.sql` - SQL query to replace post content text on WordPress sites. I use this a lot to replace local URLs with live site URLs after moving the database.
 	- `rcp_expiration_dates.sql` - SQL queries to bulk clear expiration dates in the Restrict Content Pro plugin. [Write up here.](http://www.cagrimmett.com/til/2017/12/04/restrict-content-pro-clear-expiration.html)
+- Confetti - `/confetti`
+	- `confetti.js` - Makes 200 pieces of confetti, drops them once, and then removes them after they fall. Made for [Praxis Thank You pages](http://discoverpraxis.com/received). Modified from [https://codepen.io/anon/pen/JMOQzE](https://codepen.io/anon/pen/JMOQzE)
