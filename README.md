@@ -12,3 +12,6 @@ This is a collection of snippets from various projects that don't have another h
 	- `extract_emails_to_text.py` - A Python script that extracts emails from a text file. I copy out a bunch of webpages to a text file, no formatting necessary, and then pass the text file to this script. It uses regex to spit out email addresses from the page. I didn't write this script, but I have modified it. I've had it for at least 6 years and I have no idea where I found it.
 - Text Analysis - `/text-analysis`
 	- `ngrams.py` takes text, analyses it, and returns the most frequent bigrams, trigrams, and four-grams. Originally written by [Ben Hoyt](https://gist.github.com/benhoyt/dfafeab26d7c02a52ed17b6229f0cb52).
+- WordPress - `/WordPress`
+	- `Find-Replace-WordPress-Snippet.sql` - SQL query to replace post content text on WordPress sites. I use this a lot to replace local URLs with live site URLs after moving the database.
+	- `rcp_expiration_dates.sql` - SQL queries to bulk clear expiration dates in the Restrict Content Pro plugin. [Write up here.](http://www.cagrimmett.com/til/2017/12/04/restrict-content-pro-clear-expiration.html)
